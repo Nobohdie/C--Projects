@@ -78,7 +78,7 @@ void entity::printStats() {
 void entity::printInventory() {
     printf("Inventory:\n");
     for(int i = 0; i < inventory.size(); i ++) {
-        printf("\t%i:(%s)\t", i,inventory[i].c_str());
+        printf("  %i:(%s)\t", i,inventory[i].c_str());
     }
     printf("\n");
 }
